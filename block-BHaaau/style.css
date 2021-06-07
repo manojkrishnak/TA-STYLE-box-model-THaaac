@@ -1,0 +1,26 @@
+.container-1, .container-2, .container-3{
+    display: block;
+    width: 600px;
+    border: 1px solid grey;
+}
+
+.box-1, .box-2, .box-3{
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    background-color: grey;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+
+
+/* without border */
+.box-4, .box-5, .box-6{
+    display: inline-block;
+    background-color: grey;
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+
+}
