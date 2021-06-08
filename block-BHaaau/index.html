@@ -22,33 +22,55 @@
   </head>
   <body>
     <header>
-      <h2>The Box Model, Box-sizing & Box-shadow</h2>
-      <hr />
+      <h1>The Box Model, Box-sizing & Box-shadow</h1>
     </header>
+    <hr />
     <main>
       <section>
-          <p>With border</p>
-        <div class="container-1">
-            <div class="box-1"></div>
-            <div class="box-2"></div>
-            <div class="box-3"></div>
+        <p class="excercise-heading">Exercise 1</p>
+        <div class="box"></div>
+        <div class="color-coding">
+            <span class="circles content"></span>
+            <span>content</span>
+            <span class="circles padding"></span>
+            <span>padding</span>
+            <span class="circles border"></span>
+            <span>border</span>
+            <span class="circles margin"></span>
+            <span>margin</span>
+          </div>
         </div>
-        <p>Without border</p>
-        <div class="container-2">
-            <span class="box-4"></span>
-            <span class="box-5"></span>
-            <span class="box-6"></span>
+      </section>
+      <hr>
+      <section>
+        <p class="excercise-heading">Exercise 2</p>
+        <div>
+          <p class="sub-heading">no border on these boxes</p>
+          <div class="container">
+            <div class="box-ex2"></div>
+            <div class="box-ex2"></div>
+            <div class="box-ex2"></div>
+          </div>
         </div>
-        <p>1px border but they are in same line</p>
-        <div class="container-3">
-            <div class="box-7"></div>
-            <div class="box-8"></div>
-            <div class="box-9"></div>
+        <hr>
+        <div>
+          <p class="sub-heading">1px border on these boxes</p>
+          <div class="container">
+            <div class="box-ex2 border"></div>
+            <div class="box-ex2 border"></div>
+            <div class="box-ex2 border"></div>
+          </div>
+        </div>
+        <hr>
+        <div>
+          <p class="sub-heading">1px border on these boxes but they are in same line</p>
+          <div class="container">
+            <div class="box-ex2 border box-sizing"></div>
+            <div class="box-ex2 border box-sizing"></div>
+            <div class="box-ex2 border box-sizing"></div>
+          </div>
         </div>
       </section>
     </main>
-    <footer>
-      <p>all rights reserved</p>
-    </footer>
   </body>
 </html>
